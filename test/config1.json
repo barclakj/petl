@@ -1,0 +1,11 @@
+{
+    "petl":  {
+        "input": "input_file.csv",
+        "delimiter": "|",
+        "output": "output_file.csv",
+        "connString": "jdbc:sqlite:sample.db",
+        "driver": "org.sqlite.JDBC",
+        "outputFormat": ["{1}",
+                         "{2}"]
+    }
+}
